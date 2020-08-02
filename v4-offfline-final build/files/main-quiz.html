@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+    <head>
+        <title>Current Affairs Quiz</title>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+        <script src = "main-quiz.js"></script>
+        <link rel = "stylesheet" href = "main-quiz.css">
+        <link rel = "stylesheet" href = "colours.css">
+    </head>
+    <body>
+        <button id = "endQuiz">End Quiz</button>
+        <div id = "questionTopicHeader">
+            <div id = "questionNumber">Question </div>
+            <div id = "questionTopicSeparator">|</div>
+            <div id = "topic"></div>
+        </div>
+        <div id = "question"></div>
+        <div id = "timerSection">
+            <div id = "timerDigits">30</div>
+            <div id = "timerBarBG"></div>
+            <div id = "timerBarOverlay"></div>
+        </div>
+        <div id = "answerSection">
+            <div class = "optionRows">
+                <div id = "optionA" class = "options">
+                    <div class = "optionsABCD">A</div>
+                    <div id = "answerA" class = "answers"></div>
+                </div>
+                <div id = "optionB" class = "options">
+                    <div class = "optionsABCD">B</div>
+                    <div id = "answerB" class = "answers"></div>
+                </div>
+            </div>
+            <div class = "optionRows">
+                <div id = "optionC" class = "options">
+                    <div class = "optionsABCD">C</div>
+                    <div id = "answerC" class = "answers"></div>
+                </div>
+                <div id = "optionD" class = "options">
+                    <div class = "optionsABCD">D</div>
+                    <div id = "answerD" class = "answers"></div>
+                </div>
+            </div>
+        </div>
+        <button id = "nextQuestion">Start Timer</button> <!-- Dynamic button that switches to Next Question option at the end of the round and acts as a start timer button at the start -->
+        <div id = "leaderboardSection">
+            <div id = "leaderboardHeader">
+                <img src = "leaderboard.png">
+                <div id = "leaderboardText">Scoreboard</div>
+            </div>
+            <!-- Literally Hardcoding I know but it's fine -->
+            <div class = "leaderboardRow" id = "leaderboardRow1">
+                <div class = "leaderboardNames" id = "leaderboardNames1"></div>
+                <div class = "leaderboardBarBG" id = "leaderboardBarBG1">
+                    <div class = "leaderboardBarOverlay" id = "leaderboardBarOverlay1"></div>
+                </div>
+                <div class = "leaderboardScore" id = "leaderboardScore1"></div>
+            </div>
+            <div class = "leaderboardRow" id = "leaderboardRow2">
+                <div class = "leaderboardNames" id = "leaderboardNames2"></div>
+                <div class = "leaderboardBarBG" id = "leaderboardBarBG2">
+                    <div class = "leaderboardBarOverlay" id = "leaderboardBarOverlay2"></div>
+                </div>
+                <div class = "leaderboardScore" id = "leaderboardScore2"></div>
+            </div>
+            <div class = "leaderboardRow" id = "leaderboardRow3">
+                <div class = "leaderboardNames" id = "leaderboardNames3"></div>
+                <div class = "leaderboardBarBG" id = "leaderboardBarBG3">
+                    <div class = "leaderboardBarOverlay" id = "leaderboardBarOverlay3"></div>
+                </div>
+                <div class = "leaderboardScore" id = "leaderboardScore3"></div>
+            </div>
+            <div class = "leaderboardRow" id = "leaderboardRow4">
+                <div class = "leaderboardNames" id = "leaderboardNames4"></div>
+                <div class = "leaderboardBarBG" id = "leaderboardBarBG4">
+                    <div class = "leaderboardBarOverlay" id = "leaderboardBarOverlay4"></div>
+                </div>
+                <div class = "leaderboardScore" id = "leaderboardScore4"></div>
+            </div>
+            <div class = "leaderboardRow" id = "leaderboardRow5">
+                <div class = "leaderboardNames" id = "leaderboardNames5"></div>
+                <div class = "leaderboardBarBG" id = "leaderboardBarBG5">
+                    <div class = "leaderboardBarOverlay" id = "leaderboardBarOverlay5"></div>
+                </div>
+                <div class = "leaderboardScore" id = "leaderboardScore5"></div>
+            </div>
+            <div class = "leaderboardRow" id = "leaderboardRow6">
+                <div class = "leaderboardNames" id = "leaderboardNames6"></div>
+                <div class = "leaderboardBarBG" id = "leaderboardBarBG6">
+                    <div class = "leaderboardBarOverlay" id = "leaderboardBarOverlay6"></div>
+                </div>
+                <div class = "leaderboardScore" id = "leaderboardScore6"></div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,195 @@
+:root {
+    --defaultGenericColourHex: #c33825;
+    --defaultGenericColourRGB: rgba(195, 56, 37, 1);
+}
+
+#questionNumber, #questionTopicSeparator, #topic, #question {
+    font-family: 'Raleway', sans-serif;
+    color: var(--defaultGenericColourHex);
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+#questionTopicSeparator {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#question {
+    text-align: center;
+    font-size: 1.4rem;
+    color: black;
+    margin-top: calc(30 * 100vh / 1280);
+    width: 80vw;
+    margin-left: 10vw;
+}
+
+#questionTopicHeader {
+    justify-content: center;
+    margin-top: calc(50 * 100vh / 1280);
+    display: flex;
+}
+
+#timerDigits {
+    color: white;
+    background-color: var(--defaultGenericColourHex);
+    font-family: 'Raleway', sans-serif;
+    border-radius: 50%;
+    width: 75px;
+    height: 57.5px;
+    text-align: center;
+    font-size: 28px;
+    padding-top: 17.5px;
+    margin-left: calc(12.5vw - 80px);
+    position: absolute;
+    margin-top: -32.5px;
+}
+
+#timerBarBG, #timerBarOverlay {
+    width: 80vw;
+    height: 10px;
+    border-radius: 10px;
+    margin-left: calc(12.5vw - 10px);
+    margin-top: calc(32.5 * 100vh / 1280);
+    z-index: -1;
+}
+
+#timerBarBG {
+    background-color: lightgray;
+}
+
+#timerBarOverlay {
+    background-color: var(--defaultGenericColourHex);
+    margin-top: -10px;
+}
+
+.optionRows {
+    display: flex;
+    justify-content: center;
+}
+
+.options {
+    width: 35vw;
+    height: 20vh;
+    border-radius: 10px;
+    border: 1px solid #bfbfbf;
+    margin-right: 1.3vw;
+    margin-left: 1.3vw;
+    margin-bottom: 4.6vh;
+    cursor: pointer;
+}
+
+#answerSection {
+    margin-top: calc(90 * 100vh / 1280);
+}
+
+.optionsABCD {
+    text-align: center;
+    background-color: var(--defaultGenericColourHex);
+    width: 50px;
+    height: 35px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: white;
+    padding-top: 15px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 2px 3px var(--defaultGenericColourHex);
+    margin-left: calc(17.5vw - 25px);
+    margin-top: -25px;
+    cursor: pointer;
+}
+
+.answers {
+    text-align: center;
+    overflow: hidden;
+    height: calc(20vh - 70px);
+    padding: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.leaderboardRow, #leaderboardHeader {
+    display: flex;
+}
+
+#leaderboardText, .leaderboardNames, .leaderboardScore {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.leaderboardNames {
+    width: calc(250/1920 * 100vw);
+    text-align: right;
+    overflow: hidden;
+}
+
+#leaderboardText {
+    font-size: 1.3rem;
+    margin-left: 10px;
+    margin-top: 4px;
+}
+
+.leaderboardRow {
+    margin-top: calc(12.5/1080 * 100vh);
+    margin-left: calc(20/1920 * 100vw);
+}
+
+.leaderboardBarBG, .leaderboardBarOverlay {
+    width: calc(1350/1920 * 100vw);
+    border-radius: 20px;
+    margin-left: calc(20/1920 * 100vw);
+    margin-right: calc(20/1920 * 100vw);
+    height: calc(10/1080 * 100vh);
+    margin-top: calc(6/1080 * 100vh);
+}
+
+.leaderboardBarBG {
+    background-color: #dedede;
+}
+
+.leaderboardBarOverlay {
+    margin-top: 0;
+    margin-left: 0;
+    width: 0;
+}
+
+#leaderboardHeader {
+    margin-left: calc(200/1920 * 100vw);
+}
+
+#nextQuestion, #endQuiz {
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 175px;
+    height: 40px;
+    position: absolute;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    outline: none;
+    transition: 0.2s;
+}
+
+#nextQuestion {
+    /* opacity: 0;
+    pointer-events: none; */
+    margin-left: calc(50vw - 97.5px); /* more or less text align center */
+    margin-top: calc(-15/1080 * 100vh);
+}
+
+#endQuiz {
+    margin-left: calc(98.5vw - 175px);
+    margin-top: -2.5vh;
+}
+
+#nextQuestion:hover, #endQuiz:hover {
+    background-color: rgba(191, 191, 191, 0.3);
+    transition: 0.2s;
+}

@@ -1,0 +1,32 @@
+:root {
+    --team1: #2b3d51;
+    --team2: #217fbc;
+    --team3: #00bd9d;
+    --team4: #673fb0;
+    --team5: #c25400;
+    --team6: #c20092;
+}
+
+#teamDecoration1, #leaderboardBarOverlay1 {
+    background-color: var(--team1);
+}
+
+#teamDecoration2, #leaderboardBarOverlay2 {
+    background-color: var(--team2);
+}
+
+#teamDecoration3, #leaderboardBarOverlay3 {
+    background-color: var(--team3);
+}
+
+#teamDecoration4, #leaderboardBarOverlay4 {
+    background-color: var(--team4);
+}
+
+#teamDecoration5, #leaderboardBarOverlay5 {
+    background-color: var(--team5);
+}
+
+#teamDecoration6, #leaderboardBarOverlay6 {
+    background-color: var(--team6);
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        <link rel = "stylesheet" href = "styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/jquery.shadow-animation/1/mainfile"></script>
+        <script src = "scripts.js"></script>
+        <title>General Paper Quiz</title> 
+    </head>
+    <body>
+        <div class = "stars">
+            <div class = "starsActual star1"></div>
+            <div class = "starsActual star2"></div>
+            <div class = "starsActual star3"></div>
+            <!-- <div class = "starsActual star4"></div> -->
+        </div>
+        <div id = "mainBody">
+            <div id = "bgCanvas">
+                <canvas id="canvas-1" class = "canvas"></canvas>
+                <canvas id="canvasbg-1" class = "canvasbg"></canvas>
+            </div>
+            <div id = "questionNumber">
+                Question 1
+            </div>
+            <div id = "Question">
+            </div>
+            <p id = "QuestionText">
+                <!-- Where was the last summit meeting between Kim Jong Un and Donald Trump?     -->
+            </p>
+            <div class = "animationParent" id = "animationParent1">
+                <div class = "animation" id = "animation1">
+                    <div class = "answerOptions" id = "answerOptions1">
+                        <!-- Vietnam -->
+                    </div>
+                    <canvas id="canvas1" class = "canvas"></canvas>
+                    <canvas id="canvasbg1" class = "canvasbg"></canvas>
+                </div>
+                <div class = "animation" id = "animation2">
+                    <div class = "answerOptions" id = "answerOptions2">
+                        <!-- Singapore -->
+                    </div>
+                    <canvas id="canvas2" class = "canvas"></canvas>
+                    <canvas id="canvasbg2" class = "canvasbg"></canvas>
+                </div>
+                <div class = "animation" id = "animation3">
+                    <div class = "answerOptions" id = "answerOptions3">
+                        <!-- United States -->
+                    </div>
+                    <canvas id="canvas3" class = "canvas"></canvas>
+                    <canvas id="canvasbg3" class = "canvasbg"></canvas>
+                </div>
+                <div class = "animation" id = "animation4">
+                    <div class = "answerOptions" id = "answerOptions4">
+                        <!-- South Korea -->
+                    </div>
+                    <canvas id="canvas4" class = "canvas"></canvas>
+                    <canvas id="canvasbg4" class = "canvasbg"></canvas>
+                </div>
+            </div>
+            <div id = "nextButton">
+                Next Question
+            </div>
+            <div id = "footer">
+                <div id = "clockBar">
+                    <div id = "clockBarInner"></div>
+                    <div id = "clockBarInnerDot"></div>
+                </div>
+                <div id = "clockTimer">
+                    00:30:00
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

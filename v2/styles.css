@@ -1,0 +1,420 @@
+body {
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    overflow: hidden;
+    /* margin: 0; */
+    background: radial-gradient(circle at bottom, rgb(0, 0, 36) 0, black 100%);
+    margin-left: 0px;
+}
+
+.starsActual {
+    background: rgba(22, 0, 22, 0.1) center / 200px 200px round;
+    border: 1px dashed rgb(22, 1, 22);
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.star1 {
+    animation: space 90s ease-in-out infinite;
+    background-image:
+    radial-gradient(
+        1px 1px at 25px 5px, 
+        rgba(255, 255, 255, 0.7), 
+        rgba(255, 255, 255, 0)
+    ),
+    radial-gradient(
+        1px 1px at 50px 25px, 
+        white, 
+        rgba(255, 255, 255, 0)
+    ), 
+    radial-gradient(
+        1px 1px at 125px 20px, 
+        white, 
+        rgba(255, 255, 255, 0)
+    ), 
+    radial-gradient(
+        1.5px 1.5px at 50px 75px, 
+        white, 
+        rgba(255, 255, 255, 0)
+    ),
+    radial-gradient(
+        2px 2px at 15px 125px, 
+        white, 
+        rgba(255, 255, 255, 0)
+    ),
+    radial-gradient(
+        2.5px 2.5px at 110px 80px, 
+        white, 
+        rgba(255, 255, 255, 0)
+    );
+}
+
+.star2 {
+    animation: space 120s ease-in-out infinite;
+    background-image:
+    radial-gradient(
+        1px 1px at 75px 125px, 
+        white, 
+        rgba(255, 255, 255, 0)
+    ),
+    radial-gradient(
+        1px 1px at 100px 75px, 
+        white, 
+        rgba(255, 255, 255, 0)
+    ),
+    radial-gradient(
+        1.5px 1.5px at 199px 100px, 
+        white, 
+        rgba(255, 255, 255, 0)
+    ),
+    radial-gradient(
+        2px 2px at 20px 50px, 
+        white, 
+        rgba(255, 255, 255, 0)
+    ),
+    radial-gradient(
+        2.5px 2.5px at 100px 5px, 
+        white, 
+        rgba(255, 255, 255, 0)
+    ),
+    radial-gradient(
+        2.5px 2.5px at 5px 5px, 
+        white, 
+        rgba(255, 255, 255, 0)
+    );
+}
+
+.star3 {
+    animation: space 150s ease-in-out infinite;
+    background-image:
+        radial-gradient(
+            1px 1px at 10px 10px, 
+            white, 
+            rgba(255, 255, 255, 0)
+        ),
+        radial-gradient(
+            1px 1px at 150px 150px, 
+            white, 
+            rgba(255, 255, 255, 0)
+        ),
+        radial-gradient(
+            1.5px 1.5px at 60px 170px, 
+            white, 
+            rgba(255, 255, 255, 0)
+        ),
+        radial-gradient(
+            1.5px 1.5px at 175px 180px, 
+            white, 
+            rgba(255, 255, 255, 0)
+        ),
+        radial-gradient(
+            2px 2px at 195px 95px, 
+            white, 
+            rgba(255, 255, 255, 0)
+        ),
+        radial-gradient(
+            2.5px 2.5px at 95px 145px, 
+            white, 
+            rgba(255, 255, 255, 0)
+        );
+}
+
+@keyframes space {
+    40% {
+        opacity: 0.75;
+    }
+    50% {
+        opacity: 0.25;
+    }
+    60% {
+        opacity: 0.75;
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#mainBody {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+#bgCanvas {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+}
+
+#questionNumber {
+    color: white;
+    font-weight: bold;
+    margin-left: 0.5vw;
+    margin-top: 0.5vh;
+    position: absolute;
+}
+
+#Question {
+    border: 1px dashed rgba(255, 255, 255, 0.2);
+    text-align: center;
+    justify-content: center;
+    width: 100vw;
+    height: 20vh;
+    /* border-radius: 10px; */
+    margin-left: -1px;
+    margin-top: -1vh;
+    line-height: 20vh;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 0px 4px 1px #969696;
+    border-bottom: 5px solid rgb(251, 163, 66);
+    border-top: none;
+    background: url("carbonfibrebg.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#QuestionText {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: -12.5vh;
+    color: transparent;
+    z-index: 10;
+    position: relative;
+}
+
+.answerOptions {
+    text-align: center;
+    line-height: 25vh;
+    position: absolute;
+    width: 22.5vw;
+    font-size: 1.5rem;
+}
+
+.animationParent {
+    display: flex;
+    width: 100vw;
+    /* margin-top: -8px; */
+    margin-left: -0.5vw;
+    margin-top: 25vh;
+}
+
+.animation {
+    width: 22.5vw;
+    height: 25vh;
+    cursor: pointer;
+    border: 0px solid rgba(255, 255, 255, 0);
+    border-bottom: 5px solid rgba(255, 255, 255, 0);
+    /* border-bottom-color: transparent;
+    border-left-color: transparent; */
+    /* margin-left: -6px; */
+    border-radius: 10px;
+    margin: 0vh 0vw 0vh 2vw;
+    /* text-align: center; */
+    /* line-height: 32.5vh; */
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 100;
+    box-shadow: 0px 0px 2px 0px #aaaaaa;
+    font-weight: 100;
+    opacity: 0;
+    margin-top: -10px;
+    /* background: url("carbonfibrebg2.jpg"); */
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    /* color: white; */
+    border-bottom: 5px solid rgb(251, 163, 66);
+}
+
+
+/* #animation1 {
+    border-top-left-radius: 25px;
+} */
+
+#animationParent2 {
+    margin-top: 0;
+}
+/* 
+#animation2 {
+    margin-top: 10px;
+} */
+
+canvas {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    /* width: 50vw;
+    height: 50vh;  */
+    opacity: 0.4;
+}
+
+.canvas {
+    z-index: -1;
+}
+.canvasbg {
+    margin-top: -50vh;
+    z-index: -10;
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    filter: blur(3px);
+    opacity: 0.6;
+}
+
+#nextButton {
+    width: 200px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: black;
+    text-align: center;
+    margin-left: calc(50vw - 100px);
+    line-height: 70px;
+    font-weight: bold;
+    border-bottom: 5px solid rgb(251, 163, 66);
+    margin-top: 5vh;
+    font-size: 1.1rem;
+    z-index: 100;
+    position: relative;
+    cursor: default;
+    transition: 0.2s;
+    opacity: 0;
+    box-shadow: 0px 0px 2px 0px #aaaaaa;
+}
+
+#nextButton:hover {
+    background-color: rgba(251, 163, 66, 0.9);
+    color: white;
+    transition: 0.2s;
+    margin-top: calc(5vh - 5px);
+    box-shadow: 0px 0px 6px 2px rgb(251, 163, 66);
+}
+
+#nextButton:hover ~ #footer {
+    margin-top: calc(5vh + 5px);
+    transition: 0.2s;
+}
+
+
+#footer {
+    position: relative;
+    z-index: 101;
+    margin-left: -1px;
+    margin-top: 5vh;
+    height: 25vh;
+    box-shadow: 0px 0px 4px 1px #969696;
+    border-top: 1px solid rgba(251, 163, 66, 1);
+    background-color: rgba(255, 255, 255, 0.1);
+    background: url("carbonfibrebg.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transition: 0.2s;
+}
+
+/* #legend {
+    display: flex;
+} */
+
+.footerSection {
+    z-index: 101;
+    width: 25vw;
+    height: 25vh;
+    background-color: rgb(58, 57, 57);
+    font-size: 1.5rem;
+    /* border: 1px dashed rgba(255, 255, 255, 0.2); */
+    padding-left: 2vw;
+    color: white;
+}
+
+/* .colourRing {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-top: calc(6vh - 24px);
+    margin-left: calc(4vw - 24px);
+}
+
+#colourRing1 {
+    background-color: rgb(50, 237, 228);
+}
+
+#colourRing2 {
+    background-color: rgb(180, 18, 255);
+}
+
+#colourRing3 {
+    background-color: rgb(240, 116, 0);
+}
+
+#colourRing4 {
+    background-color: rgb(200, 240, 0);
+} */
+
+/* .scoreboxOptions {
+    display: flex;
+} */
+
+/* .classes {
+    margin-top: calc(6vh - 24px);
+    margin-left: calc(2vw - 24px);
+} */
+
+/* #questionsInserter1, #questionsInserter2, #questionsInserter3, #questionsInserter4 {
+    display: flex;
+    margin-left: 2.5vw;
+    padding-top: 1.5vh;
+} */
+/* 
+.questionCircle {
+    width: calc(1/48 * 100 * 1vw);
+    height: calc(1/32 * 100 * 1vh);
+    background-color: transparent;
+    border-radius: 50%;
+    margin: 4px;
+    font-size: 0.75rem;
+    text-align: center;
+    padding-top: calc(1/108 * 100 * 1vh);
+    border: 1px solid white;
+}
+
+.questionCircleText {
+    position: absolute;
+} */
+
+#clockBar {
+    width: 95vw;
+    height: 15px;
+    border-radius: 15px;
+    border: 2px solid rgb(251, 163, 66);
+    margin-left: 2.5vw;
+    margin-top: 7.5vh;
+}
+
+#clockBarInner {
+    width: calc(95vw);
+    height: 15px;
+    border-radius: 10px;
+    background-color: rgb(251, 163, 66);
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+#clockBarInnerDot {
+    width: 32px;
+    height: 32px;
+    background-color: rgb(251, 163, 66);
+    border-radius: 50%;
+    margin-top: -24px;
+    margin-left: calc(95vw - 22px);
+}
+
+#clockTimer {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(251, 163, 66);
+    margin-top: 2vh;
+}

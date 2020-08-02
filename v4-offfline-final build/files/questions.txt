@@ -1,0 +1,41 @@
+cat,qn,0,0,0,1
+Sports,How many people died in the ill-fated helicopter crash that killed the late basketball legend Kobe Bryant and his daughter Gianna?,4,20,6,9
+Sports,What is the most recent player transfer from football club Inter Milan from Tottenham Hotspurs?,Victor Young,Giuseppe Rossi,Dennis Oaken,Christian Eriksen
+Sports,Which English Premier League club has won the most league titles since 1900?,Arsenal,Liverpool,Manchester City,Manchester United
+Sports,Which female figure skater won gold in the 2019 World Figure Skating Championships?,Evgenia Medvedeva,Elizabet Tursynbaeva,Kaori Sakamoto,Alina Zagitova
+Sports,How old was Joseph Schooling when he broke the national record for 50m butterfly heats?,21,24,22,23
+Singapore,How much did private hire (GoJek & Grab) drivers in Singapore pay for modified apps that allowed them to bypass verification and raise earnings? ,S$200 - S$550,S$250 - S$550,S$300 - $450,S$200 - S$350
+Singapore,How many abandoned babies were reported in Singapore in the past 10 years? ,23,6,0,17
+Singapore,"Who composed the song, Home?",Stefanie Sun,JJ Lin,Kit Chan,Dick Lee
+Politics,Which is NOT one of the reasons the UK decided to exit the European Union?,They wanted to control immigration into the UK,They felt they didn't have sovereignity in the EU,They wanted to be free from the strict regulations of the EU,They wanted full control of North Ireland
+Politics,Which is NOT a reason Donald Trump was acquitted from his impeachment trial?,The majority of the American public still supported him,The Republican majority in the government supported his presidency,Trump stonewalled the White House when it was investigated,The evidence of Trump abusing his power was proven false
+Politics,When was the Citizenship (Amendment) Act 2019 passed in India?,10 Dec 2019,9 Dec 2019,12 Dec 2019,11 Dec 2019
+Politics,What did Trump suggest regarding the use of disinfectants?,Rationing,Spreading onto people's body,Adding into food,Injecting into people
+General,Which luxury fashion company named its 2019 Autumn/Winter fashion show 'Heaven on Earth'?,Hermès,Gucci,Burberry,Louis Vuitton
+General,How many pairs of Dior x Air Jordan 1 High are reported to be released?,75 000,37 000,14 500,8 500
+General,How long is the world's longest English word? ,34 letters,20 letters,50 letters,45 letters
+General,Who is NOT a winner of the Nobel Peace Prize?,Theodore Roosevelt,Barack Obama,Nelson Mandela,Mahatma Gandhi 
+General,Which of the following is the largest man-made indoor waterfall in the world? ,Cascata della Marmore,Viktoriapark,Liebian International Building,Rain Vortex@Jewel Changi
+Environment ,"Approximately how many trips were made this year in the largest annual human migration phenomenon, or 'chunyun', in China?",4 billion,6 billion,2 billion,3 billion
+Environment,By when is Scotland estimated to achieve its aim of running on renewable energy 100%? ,2030,2015,2025,2020
+Environment,Which of the following is currently the cleanest river in Europe? ,The Rhine,The Seine,The Meuse,River Thames
+Environment,"As of 2019, which is the most air polluted country?",Afghanistan,Mongolia,Pakistan,Bangladesh
+Entertainment,How many ex-boyfriends did Taylor Swift have?,22,0,69,8
+Entertainment,Which of the following individuals is currently the top Grammy Award winner of all time? ,Beyonce,Stevie wonder,Pierre Boulez,George Solti
+Entertainment,Which movie caused AMC to ban movies from Universal Studios to be played in all their global branches?,The Invisible Man,Fast and Furious 8,Onward,Trolls: World Tour
+Entertainment,"How many subscribers did the new streaming service, Disney Plus, gain in its first six weeks?",30 million,15.6 million,990 thousand,26.5 million
+Entertainment,Which artist recently collaborated with Fortnite for a virtual concert?,Marshmello,Alan Walker,Billie Eilish,Travis Scott
+Economy,Which company has proceeded with its plans to enter the U.K. market despite its strained relations with the U.S.?,China National Petroleum,Alibaba Group,Taobao,Huawei
+Economy,"In January this year, automobile maker General Motors committed a sum of money to the building of electric and autonomous vehicles. How much was this sum of money?",US$2 million,US$4 million,US$5 million,US$3 million
+Economy,"Which is NOT an aim of the Digital Economy Partnership Agreement (DEPA) between Singapore, New Zealand and Chile? ",Facilitate greater digital connectivity between them,Establish multilateral rules on digtal trade,Move towards a digital economy,Move towards the use of cryptocurrency
+Economy,"When was the “Phase One” trade deal, a trade agreement that is expected to boost exports from American farmers/manufacturers and lower tensions in a long-running dispute between the U.S. and China signed? ",September 11 2019,June 6 2019,August 6 2019,January 15 2020
+Economy,"What was the lowest price in history (USD) for a barrel of oil?",$399.00,$12,-$104.00,-$37.00
+Covid-19,"Which country was the first to issue a travel ban on visitors from Wuhan, China, in light of Covid-19 transmission?",The U.S.,Taiwan,France,Marshall Islands 
+Covid-19,"In January 2020, Taiwanese authorities made a decision to temporarily halt the export of masks. What was the duration of this mask export ban?",2 weeks,3 weeks,2 months,1 month
+Covid-19,Which animal species was the Covid-19 virus supposedly originate from? ,Slugs,Rats,Snakes,Bats
+Covid-19,Which local university hostels were not being used as quarantine facilities in the early stages of the Covid-19 pandemic in Singapore?,SMU,NTU,NUS,SUTD
+Arts,"Which art piece was drawn by famous contemporary artist, Takashi Murakami?",Dots Obsession,Balloon Dog,Mickey,Flower Ball
+Arts,Which museum in Singapore has free admissions for everyone?,ArtScience Museum ,Science Centre,Singapore Musical Box Museum,Asian Civilisation Museums
+Arts,What is the most expensive painting ever sold?,Number 17A,The Card Players,Interchange,Salvator Mundi
+Arts,Which museum has the longest history?,Royal Armouries,Amerbach Cabinet,Hermitage Museum,Capitoline Museum
+Arts,Which Singaporean tamil film is featured at the Cannes Film Festival?,Already Famous,Tatsumi,Be With Me,My Magic
